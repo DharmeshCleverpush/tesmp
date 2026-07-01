@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/cleverpush/:path*",
-      "destination": "https://api-stage.cleverpush.com/:path*"
+      "destination": "https://api.cleverpush.com/:path*"
     }
   ]
 }

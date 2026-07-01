@@ -4,7 +4,7 @@ module.exports = function (app) {
   app.use(
     '/api/cleverpush',
     createProxyMiddleware({
-      target: 'https://api-stage.cleverpush.com',
+      target: 'https://api.cleverpush.com',
       changeOrigin: true,
       pathRewrite: { '^/api/cleverpush': '' },
     })
