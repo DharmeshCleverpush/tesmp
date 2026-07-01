@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/cleverpush/:path*",
+      "destination": "https://api-stage.cleverpush.com/:path*"
+    }
+  ]
+}
